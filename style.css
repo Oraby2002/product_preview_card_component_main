@@ -1,0 +1,54 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.Perfume_show {
+  padding: 50px 150px;
+  width: 560px;
+  margin: 150px auto;
+  position: relative;
+}
+img {
+  width: 270px;
+  height: 400px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.image {
+  height: 400px;
+  width: 500px;
+  border-radius: 4px;
+  background-color: white;
+}
+.details_product {
+  position: absolute;
+  top: 12px;
+  right: 46px;
+  padding: 12px 65px;
+  margin: 12px 107px;
+  width: 200px;
+}
+
+h6 {
+  letter-spacing: 4px;
+  color: hsl(228, 12%, 48%);
+}
+p {
+  color: hsl(228, 12%, 48%);
+}
+.New_price {
+  color: rgba(6, 79, 14, 0.824);
+  display: inline;
+  margin: 5px;
+}
+.old_price {
+  text-decoration: line-through;
+  display: inline-block;
+}
+button {
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: rgb(12, 69, 7);
+  color: white;
+  cursor: pointer;
+  transform: background 0.3;
+}
